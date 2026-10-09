@@ -1,0 +1,11 @@
+2026-10-04 03:52:09 [backend/main.go:1211] [INFO] -> ### iot core init success ###
+2026-10-04 03:52:09 [token/api.go:55] [DEBUG] -> [calStringToSign] httpMethod=GET, contentSha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855, headers=, uri=/v1.0/token?grant_type=1, stringToSign=GET
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+/v1.0/token?grant_type=1
+2026-10-04 03:52:09 [token/api.go:35] [INFO] -> [ProxyHttp] success req:&{GET https://openapi-sg.iotbing.com/v1.0/token?grant_type=1  0 0 map[Client_id:[ucte9reyqqr5j5rwkxrf] Content-Type:[application/json] Nonce:[f3c693c6-7600-4399-ab30-6954de0086f7] Sign:[79D56F7D9E626D7B16F53AA457977D30189FA768C976A14C5320CF79C7D4167F] Sign_method:[HMAC-SHA256] T:[1791060729018]] <nil> <nil> 0 [] false  map[] map[] <nil> map[]   <nil> <nil> <nil>  <nil> <nil> [] map[]}, resp:&{Success:true Code:0 Msg: T:1791060729102 Result:{ExpireTime:2205 UID:bay1779727113655kGse AccessToken:c0ec9948634b45b953aeaf2f2e4c3429 RefreshToken:1a92ea39ceefb2e8d5cb7d311b5f007f}}
+2026-10-04 03:52:09 [header/base.go:51] [DEBUG] -> [calStringToSign] httpMethod=GET, contentSha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855, headers=, uri=/v1.0/iot-01/associated-users/devices, stringToSign=GET
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+/v1.0/iot-01/associated-users/devices
+2026-10-04 03:52:09 [connector/base.go:57] [INFO] -> [ProxyHttp] success req:&{GET https://openapi-sg.iotbing.com/v1.0/iot-01/associated-users/devices  0 0 map[Access_token:[c0ec9948634b45b953aeaf2f2e4c3429] Client_id:[ucte9reyqqr5j5rwkxrf] Content-Type:[application/json] Dev_channel:[SaaSFramework] Dev_lang:[golang] Nonce:[9b22c897-db40-44cb-bb86-0ac80b0be40e] Sign:[E73A6B3B15F3FF5B54E3AF05C82C945CF2D1652447F9F075015DEB1380764838] Sign_method:[HMAC-SHA256] T:[1791060729263]] <nil> <nil> 0 [] false  map[] map[] <nil> map[]   <nil> <nil> <nil>  <nil> <nil> [] map[]}, resp:0x1dc0b6a82390
